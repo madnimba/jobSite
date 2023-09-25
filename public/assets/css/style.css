@@ -3505,7 +3505,7 @@ hr {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #fb246a
+    color: #4f24fb
 }
 
 .single-post-area .blog-author p {
@@ -5780,7 +5780,7 @@ del {
     font-size: 80px;
     font-weight: 900;
     margin-bottom: 78px;
-    background-color: #F9B314;
+    
     line-height: 1.2
 }
 
@@ -7236,8 +7236,8 @@ form.search-box .search-form  {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .job-listing-area {
-        padding-top: 70px;
-        padding-bottom: 70px
+        padding-top: 20px;
+        
     }
 }
 
@@ -7268,7 +7268,7 @@ form.search-box .search-form  {
     height: 30px;
     background: #fff;
     border-radius: 0px;
-    padding: 10px 12px;
+    
     color: #5d5d5d;
     line-height: 6px;
     border: 1px solid #ededed;
