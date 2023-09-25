@@ -19,7 +19,9 @@ app.use(morgan('tiny'));
 app.use(cookieParser());
 
 
-
+app.get('/',(req,res)=>{
+    res.redirect('/app/home');
+})
 
 app.use('/app', indexRouter);
 
