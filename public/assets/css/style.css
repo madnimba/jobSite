@@ -46,7 +46,7 @@
 
 .boxed-btn {
     background: #fff;
-    color: #F9B314 !important;
+    color: #1211CA !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Muli", sans-serif;
@@ -56,7 +56,7 @@
     border: 1px solid #fb246a;
     letter-spacing: 3px;
     text-align: center;
-    color: #F9B314;
+    color: #1211CA;
     text-transform: uppercase;
     cursor: pointer
 }
@@ -394,21 +394,20 @@ hr {
 }
 
 .btn {
-    background: #F9B314;
+    background: white;
     -moz-user-select: none;
     text-transform: capitalize;
-    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 1000;
     letter-spacing: 1px;
     line-height: 0;
     margin-bottom: 0;
     padding: 10px 10px;
     border-radius: 20px;
     margin: 10px;
-    color: #1211CA;
+    color: #1211CA ;
     cursor: pointer;
     transition: color 0.4s linear;
     position: relative;
@@ -416,6 +415,14 @@ hr {
     border: 0;
     overflow: hidden;
     margin: 0
+}
+
+.btnfont{
+    color: #1211CA ;
+    font-size: 16px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    
 }
 
 @media (max-width: 767px){
@@ -431,7 +438,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #f6ce70;
+    background: #bfd9ff;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -5684,7 +5691,7 @@ del {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-    background-color: #fb246a !important
+    background-color: #1211CA !important
 }
 
 .header-sticky.sticky-bar.sticky .header-btn .get-btn {
@@ -5697,7 +5704,7 @@ del {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #fb246a
+    color: #1211CA
 }
 
 .slicknav_menu {
@@ -5773,7 +5780,7 @@ del {
     font-size: 80px;
     font-weight: 900;
     margin-bottom: 78px;
-    color: #28395a;
+    background-color: #F9B314;
     line-height: 1.2
 }
 
@@ -5998,11 +6005,12 @@ form.search-box .search-form {
     }
 }
 
-form.search-box .search-form a {
+form.search-box .search-form  {
     width: 100%;
     height: 70px;
     background: #f9b312;
     font-size: 20px;
+    font-weight: 1000;
     color: #1211CA;
     margin-bottom: 8px;
     line-height: 1;
@@ -6280,7 +6288,7 @@ form.search-box .search-form a {
 .our-services .single-services .services-ion span {
     font-size: 60px;
     margin-bottom: 13px;
-    color: #014b85;
+    color: #f9b312;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -o-transition: .3s;
@@ -6680,9 +6688,10 @@ form.search-box .search-form a {
 }
 
 .items-link a {
-    color: #8b92dd;
+    color: white;
     display: block;
-    border: 1px solid #8b92dd;
+    background-color: #f9b312;
+    border: 1px ;
     border-radius: 30px;
     padding: 4px 33px;
     text-align: center;
