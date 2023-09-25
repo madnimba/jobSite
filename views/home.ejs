@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+</head>
+<body class="login_body">
+    <div class="card">
+        
+    <div class="text-center success"><%=message%></div>
+    <div class="text-center center-div" id="login">
+
+        <div >
+            <div class="title pb-3">
+            <h2 class="font-weight-bold">
+                Login
+            </h2>
+        </div>
+        <div>
+        <form action="/app/login" method="POST" class="pt-3">
+            <div class="form-group">
+                <input type="email" class="form-control loginput" placeholder="email" name="email" required>
+            </div>
+            <div class="form-group">
+                
+                <input type="password" class="form-control loginput" name="password" placeholder="password" required>
+                <div class="role">
+
+
+
+                <input type="radio" class="rd" name="option" value="user" required >Individual
+                <input type="radio" class="rd" name="option" value="shop">Shop
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success rounded-5 mt-2 ">Log in</button>
+            
+        </form>
+      </div>
+        <small>Don't have an account?</small>
+       <form action="/app/User_register" method="GET">
+        <button class="btn btn-success rounded-5">Register as an Individual</button>
+       </form>
+       <form action="/app/shopRegister" method="GET">
+        <button class="btn btn-success rounded-5">Register as a Shop</button>
+       </form>
+        </div>
+    </div>
+ 
+      </div>
+
+      <style>
+        :root {
+  font-size: 20px;
+  box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+
+.login_body{
+  font: 1em/1.618 Inter, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 100vh;
+  padding: 30px;
+  
+  color: #224;
+  background:
+  url("/images/clothes.jpg")
+    center / cover no-repeat fixed;
+}
+
+.loginput 
+{
+  width: 400px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  
+}
+.card {
+  max-width: 600px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 600px;
+  height: 600px;
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+
+/* Increase the size of the radio buttons */
+.rd {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+  margin-right: 10px; /* Add some spacing between the radio buttons */
+}
+
+
+.card-footer {
+  font-size: 0.65em;
+  color: #446;
+}
+
+   
+  
+
+
+      </style>
+</body>
+</html>
+
+
+
+
+
+
+
