@@ -6157,7 +6157,7 @@ form.search-box .search-form a {
     transform: scale(1)
 }
 
-.team-profile .single-profile .single-profile-front-last .profile-img img:hover {
+.team-profile .single-profile .single-profile-front-last  img:hover {
     border-bottom: 7px solid #fb246a;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -6165,6 +6165,12 @@ form.search-box .search-form a {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1)
 }
+
+
+    .myimg {
+       width: 100%;
+    }
+
 
 .team-profile .single-profile .single-profile-front-last .profile-caption {
     overflow: hidden
