@@ -605,7 +605,7 @@ hr {
 }
 
 #scrollUp {
-    background: #fb246a;
+    background: #f9b312;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -616,6 +616,10 @@ hr {
     border-radius: 50%;
     line-height: 48px;
     border: 2px solid transparent
+}
+
+.ti-arrow-up {
+   color: #1211CA;
 }
 
 @media (max-width: 767px) {
