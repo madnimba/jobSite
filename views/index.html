@@ -31,7 +31,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="/assets/img/logo/logo.png" alt="">
+                    <img src="/assets/img/logo/logobig.png" alt="">
                 </div>
             </div>
         </div>
@@ -103,10 +103,10 @@
                                 <!-- form -->
                                 <form action="#" class="search-box">
                                     
-                                    <div class="search-form">
+                                    <div class="search-form" onclick="redirectToTalent()">
                                         <a href="/app/talent">FIND A TALENT</a>
                                     </div>
-                                    <div class="search-form">
+                                    <div class="search-form" onclick="redirectToJob()">
                                         <a href="/app/job_listing">FIND A JOB</a>
                                     </div>	
                                     
@@ -178,6 +178,17 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="/assets/js/plugins.js"></script>
         <script src="/assets/js/main.js"></script>
+
+        <script>
+            function redirectToTalent() {
+    window.location.href = "/app/talent"; // Redirect to the talent page
+}
+            function redirectToJob()
+            {
+                window.location.href = "/app/job_listing";
+            }
+
+        </script>
         
     </body>
 </html>

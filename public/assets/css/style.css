@@ -422,6 +422,7 @@ hr {
     font-size: 16px;
     font-weight: 1000;
     letter-spacing: 1px;
+    padding-top: 6px;
     
 }
 
@@ -2027,7 +2028,7 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #fb246a;
+    border-top-color: #1211ca;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -6023,7 +6024,8 @@ form.search-box .search-form  {
     font-family: "Muli", sans-serif;
     letter-spacing: 0.1em;
     line-height: 1.2;
-    line-height: 38px
+    line-height: 38px;
+    cursor: pointer;
 }
 
 .team-profile {
@@ -6664,8 +6666,8 @@ form.search-box .search-form  {
     }
 }
 
-.single-job-items:hover {
-    box-shadow: 0px 22px 57px 0px rgba(34, 41, 72, 0.05)
+.single-job-items {
+    box-shadow: 0px 40px 80px 0px rgba(34, 41, 72, 0.05)
 }
 
 .single-job-items .job-items {
@@ -6690,6 +6692,7 @@ form.search-box .search-form  {
 .items-link a {
     color: white;
     display: block;
+    font-weight: 500;
     background-color: #f9b312;
     border: 1px ;
     border-radius: 30px;
